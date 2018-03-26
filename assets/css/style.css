@@ -1,0 +1,75 @@
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+header {
+    text-align: center;
+}
+
+#rules {
+    background-color: white;
+    border: 5px solid black;
+}
+
+#random-number {
+    font-size: 25px;
+    background-color: white;
+    border: 5px solid black;
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+}
+
+#wins-losses {
+    font-size: 25px;
+    background-color: white;
+    border: 5px solid black;
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+}
+
+#score {
+    font-size: 25px;
+    background-color: white;
+    border: 5px solid black;
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+}
+
+.buttons {
+    background-color: white;
+    margin: 20px;
+    margin-left: 100px;
+    padding: 25px 25px 25px 45px;
+    border: 5px solid black;
+    height: 180px;
+    width: 600px;
+}
+
+#image1 {
+    height: 120px;
+    width: 120px;
+}
+
+#image2 {
+    height: 120px;
+    width: 120px;
+
+}
+
+#image3 {
+    height: 120px;
+    width: 120px;
+
+}
+
+#image4 {
+    height: 120px;
+    width: 120px;
+
+}
+
+
+
