@@ -1,4 +1,4 @@
-$(document).ready(function () {
+// $(document).ready(function () {
 
 //variables 
 var wins = 0;
@@ -30,7 +30,7 @@ function reset() {
     score = 0;
     $("#score").html(score);
     random = parseInt(Math.floor(Math.random() * 101) + 19);
-    $("#randomNumber").text(random);
+    $("#random-number").html(random);
     stone1 = parseInt(Math.floor(Math.random() * 12) + 1);
     stone2 = parseInt(Math.floor(Math.random() * 12) + 1);
     stone3 = parseInt(Math.floor(Math.random() * 12) + 1);
@@ -84,5 +84,6 @@ $(document).ready(function () {
         }
     })
 
+    reset();
 })
-});
+// });
