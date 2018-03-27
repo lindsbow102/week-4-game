@@ -28,7 +28,7 @@ console.log("***");
 //function to reset the game if the user loses or wins
 function reset() {
     score = 0;
-    $("#score").html(score);
+    $("#score").html("Your total score is: " + score);
     random = parseInt(Math.floor(Math.random() * 101) + 19);
     $("#random-number").html(random);
     stone1 = parseInt(Math.floor(Math.random() * 12) + 1);
@@ -64,7 +64,7 @@ $(document).ready(function () {
 
         }
         console.log(score);
-        $("#score").html(score);
+        $("#score").html("Your total score is: " + score);
         $("#random-number").html(random);
 
         //increase the win or lost counter by 1 depending on the result
